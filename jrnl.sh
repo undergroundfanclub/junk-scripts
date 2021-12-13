@@ -1,3 +1,4 @@
+#obviously requires neovim to run
 #!/bin/bash
 FILE=~/junk/jrnl/$(date "+%F").md
 if [ -f "$FILE" ]; then
