@@ -19,7 +19,7 @@ else
 
 	touch $FILE
 	echo '<div class="metadata data">'$(date "+%F")'</div>' >> $FILE
-	echo '<div class="metadata author">ungder@pm.ch</div>' >> $FILE
+	echo '<div class="metadata author">ungder@pm.me</div>' >> $FILE
 	echo '# TITLE' >> $FILE
 	echo "$FILE did not exist...until now"
 	nvim $FILE
